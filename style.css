@@ -455,9 +455,6 @@ a:active {
 #photos .p1 {
   background-image: url('My photos/photo1.jpg');
 }
-#photos .p2 {
-  background-image: url('My photos/photo2.jpg');
-}
 #photos .p3 {
   background-image: url('My photos/photo3.jpg');
 }
@@ -478,13 +475,6 @@ a:active {
 }
 #photos .p9 {
   background-image: url('My photos/photo9.jpg');
-}
-#photos .p10 {
-  background-image: url('My photos/photo10.jpg');
-  filter: brightness(1.3);
-}
-#photos .p11 {
-  background-image: url('My photos/photo11.jpg');
 }
 #photos .p12 {
   background-image: url('My photos/photo12.jpg');
