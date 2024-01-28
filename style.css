@@ -433,7 +433,7 @@ a:active {
   gap: .7em
 }
 #photos .photo {
-  height: 45vh;
+  height: 350px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
