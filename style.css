@@ -429,12 +429,11 @@ a:active {
 }
 #photos .photo-box {
   display: grid;
-  grid-template-columns: 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   gap: .7em
 }
 #photos .photo {
-  height: 25vh;
+  height: 35vh;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
