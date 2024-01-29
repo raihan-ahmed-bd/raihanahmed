@@ -156,8 +156,8 @@ a:active {
   box-shadow: 2px 0px 20px #1c0020f2;
 }
 #header-img {
-  height: 300px;
-  width: 300px;
+  height: 280px;
+  width: 280px;
   border-radius: 50%;
   margin: auto;
   margin-top: 85px;
@@ -165,13 +165,14 @@ a:active {
   background-size: cover;
   background-position: top;
   transition: .5s ease-in;
-  box-shadow: 0px 0px 30px #803555;
-
+  border: 8px solid blueviolet;
+  padding: .3em;
+  background-clip: content-box;
+  box-shadow: 0px 0px 30px blueviolet;
 }
 #header-img:hover {
   background-size: 110%;
   transform: rotate(2deg);
-  box-shadow: 0px 0px 30px #ff6aa9;
 }
 .intro {
   padding: 15px 20px;
