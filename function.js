@@ -7,6 +7,24 @@ function menuOff() {
     menuOff.style.transform = "scaleY(0)";
 }
 function loading() {
-  let loading = document.getElementById("loading");
-    loading.style.display = "none";
+  let loadingStopped = false;
+  let preloader = document.getElementById("loading");
+  setTimeout(() => {
+    if (!loadingStopped) {
+      preloader.style.opacity = 0;
+      setTimeout(() => {
+        preloader.style.display = "none";
+      }, 500);
+      loadingStopped = true;
+    }
+  }, 5000);
+  window.addEventListener('load', () => {
+    if (!loadingStopped) {
+      preloader.style.opacity = 0;
+      setTimeout(() => {
+        preloader.style.display = "none";
+      }, 500);
+      loadingStopped = true;
+    }
+  });
 }
