@@ -28,13 +28,15 @@ a:active {
   width: 100%;
   z-index: 999;
   position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 #loading #spinner {
   height: 80px;
   width: 80px;
   border-radius: 50%;
   border: none;
-  margin: auto;
 }
 #spinner i {
   font-size: 100px;
