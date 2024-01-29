@@ -17,7 +17,7 @@ function loading() {
       }, 500);
       loadingStopped = true;
     }
-  }, 5000);
+  }, 3000);
   window.addEventListener('load', () => {
     if (!loadingStopped) {
       preloader.style.opacity = 0;
