@@ -26,17 +26,15 @@ a:active {
   background: black;
   height: 100vh;
   width: 100%;
-  position: fixed;
   z-index: 999;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  position: fixed;
 }
 #loading #spinner {
   height: 80px;
   width: 80px;
   border-radius: 50%;
   border: none;
+  margin: auto;
 }
 #spinner i {
   font-size: 100px;
@@ -56,6 +54,7 @@ a:active {
   color: #fff;
   margin: 1em;
   font-size: 1.3rem;
+  text-align: center;
 }
 .navbar {
   background: linear-gradient(45deg, black, purple);
