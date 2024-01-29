@@ -10,7 +10,13 @@
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="query.css">
 </head>
-<body>
+<body onload="loading()">
+  <div id="loading">
+    <div id="spinner">
+      <i class="fa-brands fa-cloudscale"></i>
+    </div>
+    <p id="loading-text">LOADING...</p>
+  </div>
   <div class="navbar">
     <div class="nav-logo">
       <img src="Images/logo name.png" alt="" href="#home"></img>
