@@ -144,7 +144,7 @@ a:active {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  z-index: 2;
+  z-index: 5;
   opacity: .2;
   filter: blur(.3px);
 }
