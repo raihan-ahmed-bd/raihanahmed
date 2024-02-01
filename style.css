@@ -135,7 +135,7 @@ a:active {
   transform: rotate(180deg);
 }
 #nav-back {
-  position: absolute;
+  /*position: absolute;
   cursor: none;
   font-size: .3px;
   text-align: right;
@@ -146,7 +146,7 @@ a:active {
   user-select: none;
   z-index: 5;
   opacity: .2;
-  filter: blur(.3px);
+  filter: blur(.3px);*/
 }
 .header {
   height: 100dvh;
