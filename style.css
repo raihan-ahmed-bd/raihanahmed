@@ -144,9 +144,8 @@ a:active {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  z-index: 2;
-  opacity: .2;
-  filter: blur(.3px);
+  z-index: 99;
+  opacity: ;
 }
 .header {
   height: 100dvh;
