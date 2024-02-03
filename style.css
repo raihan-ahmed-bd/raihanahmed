@@ -23,40 +23,40 @@ a:active {
   color: megenta;
 }
 #loading {
-  background: black;
-  height: 100vh;
-  width: 100%;
-  z-index: 999;
-  position: fixed;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-#loading #spinner {
-  height: 80px;
-  width: 80px;
-  border-radius: 50%;
-  border: none;
-}
-#spinner i {
-  font-size: 100px;
-  color: #fff;
-  text-shadow: 0px 0px 50px blueviolet;
-  animation: spin 1s ease-in-out infinite;
-}
-@keyframes spin {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-}
-#loading-text {
-  color: #fff;
-  margin: 1em;
-  font-size: 1.3rem;
-  text-align: center;
+    background: black;
+      height: 100vh;
+        width: 100%;
+          position: ;
+            z-index: 999;
+              display: flex;
+                justify-content: center;
+                  align-items: center;
+                  }
+                  #loading #spinner {
+                    height: 80px;
+                      width: 80px;
+                        border-radius: 50%;
+                          border: none;
+                          }
+                          #spinner i {
+                            font-size: 100px;
+                              color: #fff;
+                                text-shadow: 0px 0px 50px blueviolet;
+                                  animation: spin 1s ease-in-out infinite;
+                                  }
+                                  @keyframes spin {
+                                    0% {
+                                        transform: rotate(0deg);
+                                          }
+                                            100% {
+                                                transform: rotate(360deg);
+                                                  }
+                                                  }
+                                                  #loading-text {
+                                                    color: #fff;
+                                                      margin: 1em;
+                                                        font-size: 1.3rem;
+                                                        }
 }
 .navbar {
   background: linear-gradient(45deg, black, purple);
